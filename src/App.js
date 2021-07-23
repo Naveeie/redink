@@ -41,10 +41,14 @@ class App extends React.Component {
 
   render() { 
     return (
-      <div className="App" style={{display:'flex', justifyContent:'space-evenly'}}> 
-      <ComponentA handleSubmit={this.handleTextArea}/>
-      <ComponentB result={this.state.result} handleAlert={this.handleAlert}/>
-    </div>
+      <div className="App"> 
+          <div  className="column">
+          <ComponentA handleSubmit={this.handleTextArea}/>
+          </div>
+          <div className="column">
+          <ComponentB result={this.state.result} handleAlert={this.handleAlert}/>
+          </div>
+      </div>
       );
   }
 }

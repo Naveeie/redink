@@ -1,4 +1,4 @@
-/* .App {
+.App {
   text-align: center;
 }
 
@@ -35,4 +35,16 @@
   to {
     transform: rotate(360deg);
   }
-} */
+}
+
+.column {
+  border: .5px solid;
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+.App{
+display: flex;
+flex-direction: row;
+}

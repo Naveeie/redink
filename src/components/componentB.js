@@ -10,7 +10,7 @@ class ComponentB extends Component {
                 {this.props.result}
                 {this.props.result && (
                     <input type="submit" onClick={this.props.handleAlert}
-                    style={{backgroundColor:'#0693cd', borderRadius:'5px',marginLeft:'110px',color:'#fff',padding:'4px',
+                    style={{backgroundColor:'#0693cd', borderRadius:'5px',color:'#fff',padding:'4px',
                 width:'60px'}} />
                 )}
             </div>

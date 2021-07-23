@@ -11,7 +11,7 @@ class ComponentA extends Component {
                 <textarea id="tarea" rows={10} cols={44}>
                 </textarea><br/>
                 <input type="submit" onClick={() => this.props.handleSubmit()}
-                style={{backgroundColor:'#0693cd', borderRadius:'5px',marginLeft:'127px',color:'#fff',padding:'4px',
+                style={{backgroundColor:'#0693cd', borderRadius:'5px',color:'#fff',padding:'4px',
                 width:'100px'}} />
             </div>
           );
